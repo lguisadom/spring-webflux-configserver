@@ -1,16 +1,16 @@
 application:
   config:
-    description: Profile Default
+    description: Profile desarrollo
 
 server:
-  port: 6082
+  port: 8082
 
 spring:
   application:
     name: service-customer
   cloud:
     config:
-      profile: qa
+      profile: dev
 
   data:
     mongodb:

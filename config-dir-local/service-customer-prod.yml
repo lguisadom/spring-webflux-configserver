@@ -1,6 +1,6 @@
 application:
   config:
-    description: Profile Produccion
+    description: Profile Production
 
 server:
   port: 10082

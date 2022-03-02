@@ -1,6 +1,6 @@
 application:
   config:
-    description: Profile desarrollo
+    description: Profile Development
 
 server:
   port: 8082
