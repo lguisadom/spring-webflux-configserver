@@ -1,0 +1,19 @@
+application:
+  config:
+    description: Profile Developer
+
+server:
+  port: 8084
+
+spring:
+  application:
+    name: service-credit
+  cloud:
+    config:
+      profile: dev
+
+  data:
+    mongodb:
+      database: 'creditdb'
+      host: 'localhost'
+      port: 27017

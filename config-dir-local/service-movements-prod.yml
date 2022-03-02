@@ -1,0 +1,29 @@
+application:
+  config:
+    description: Profile Production
+
+server:
+  port: 10085
+
+spring:
+  application:
+    name: service-movements
+  cloud:
+    config:
+      profile: dev
+
+  data:
+    mongodb:
+      database: 'movementsdb'
+      host: 'localhost'
+      port: 27017
+
+#Endpoints
+config:
+  base:
+    customer:
+      endpoint: http://localhost:10082/api/v1/customer
+    account:
+      endpoint: http://localhost:10083/api/v1/account
+    credit:
+      endpoint: http://localhost:10084/api/v1/credit

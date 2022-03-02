@@ -1,0 +1,29 @@
+application:
+  config:
+    description: Profile desarrollo
+
+server:
+  port: 8085
+
+spring:
+  application:
+    name: service-movements
+  cloud:
+    config:
+      profile: dev
+
+  data:
+    mongodb:
+      database: 'movementsdb'
+      host: 'localhost'
+      port: 27017
+
+#Endpoints
+config:
+  base:
+    customer:
+      endpoint: http://localhost:8082/api/v1/customer
+    account:
+      endpoint: http://localhost:8083/api/v1/account
+    credit:
+      endpoint: http://localhost:8084/api/v1/credit

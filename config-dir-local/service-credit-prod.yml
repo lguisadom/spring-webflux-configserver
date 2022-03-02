@@ -1,0 +1,19 @@
+application:
+  config:
+    description: Profile Production
+
+server:
+  port: 10084
+
+spring:
+  application:
+    name: service-credit
+  cloud:
+    config:
+      profile: prod
+
+  data:
+    mongodb:
+      database: 'creditdb'
+      host: 'localhost'
+      port: 27017

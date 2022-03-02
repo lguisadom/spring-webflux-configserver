@@ -1,0 +1,19 @@
+application:
+  config:
+    description: Profile Testing
+
+server:
+  port: 9084
+
+spring:
+  application:
+    name: service-credit
+  cloud:
+    config:
+      profile: qa
+
+  data:
+    mongodb:
+      database: 'creditdb'
+      host: 'localhost'
+      port: 27017
