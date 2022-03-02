@@ -1,0 +1,19 @@
+application:
+  config:
+    description: Profile Production
+
+server:
+  port: 10082
+
+spring:
+  application:
+    name: service-customer
+  cloud:
+    config:
+      profile: prod
+
+  data:
+    mongodb:
+      database: 'customerdb'
+      host: 'localhost'
+      port: 27017

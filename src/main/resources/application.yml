@@ -5,6 +5,17 @@ spring:
   cloud:
     config:
       server:
+        bootstrap: false
         git:
-          uri: file:///C:/configserver/bootcamp
+          clone-on-start: true
+          #local repository
+          #uri: file:///C:/configserver/bootcamp
+          #default-label: master
+          
+          # repositorio remoto (Auth: ssh key) [forma 2]
+          uri: https://github.com/lguisadom/config
           default-label: master
+          basedir: config-dir-github
+          #ignore-local-ssh-settings: true
+          #passphrase: secured
+          #private-key: |

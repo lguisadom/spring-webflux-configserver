@@ -1,0 +1,19 @@
+application:
+  config:
+    description: Profile desarrollo
+
+server:
+  port: 8082
+
+spring:
+  application:
+    name: service-customer
+  cloud:
+    config:
+      profile: dev
+
+  data:
+    mongodb:
+      database: 'customerdb'
+      host: 'localhost'
+      port: 27017
