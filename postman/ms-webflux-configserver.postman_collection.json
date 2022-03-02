@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "properties",
+			"name": "customer",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -20,6 +20,26 @@
 					"path": [
 						"service-customer",
 						"prod"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/service-account/default",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"service-account",
+						"default"
 					]
 				}
 			},
