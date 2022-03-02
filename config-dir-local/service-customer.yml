@@ -1,0 +1,19 @@
+application:
+  config:
+    description: Profile Default
+
+server:
+  port: 6082
+
+spring:
+  application:
+    name: service-customer
+  cloud:
+    config:
+      profile: qa
+
+  data:
+    mongodb:
+      database: 'customerdb'
+      host: 'localhost'
+      port: 27017
