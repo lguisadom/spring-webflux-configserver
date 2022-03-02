@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "a577be65-0d24-4ff9-b9aa-2463efd6708d",
+		"name": "ms-webflux-configserver",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "properties",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/service-customer/prod",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"service-customer",
+						"prod"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
