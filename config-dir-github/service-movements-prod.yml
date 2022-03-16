@@ -27,20 +27,3 @@ config:
       endpoint: http://localhost:10083/api/v1/account
     credit:
       endpoint: http://localhost:10084/api/v1/credit
-
-#Eureka Client
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8087/eureka
-    #enabled: false
-
-#Endpoints Eureka URL
-config-eureka:
-  base:
-    customer:
-      endpoint: 'http://service-customer/api/v1/customer'
-    account:
-      endpoint: 'http://service-account/api/v1/account'
-    credit:
-      endpoint: 'http://service-credit/api/v1/credit'

@@ -17,10 +17,3 @@ spring:
       database: 'customerdb'
       host: 'localhost'
       port: 27017
-
-#Eureka Client
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8087/eureka
-    #enabled: false
