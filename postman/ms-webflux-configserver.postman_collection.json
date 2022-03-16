@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8086/service-customer/prod",
+					"raw": "http://localhost:8086/service-customer/dev",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -19,7 +19,7 @@
 					"port": "8086",
 					"path": [
 						"service-customer",
-						"prod"
+						"dev"
 					]
 				}
 			},
@@ -31,7 +31,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8086/service-account/default",
+					"raw": "http://localhost:8086/service-account/qa",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -39,7 +39,7 @@
 					"port": "8086",
 					"path": [
 						"service-account",
-						"default"
+						"qa"
 					]
 				}
 			},
